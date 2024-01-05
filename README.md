@@ -10,6 +10,7 @@ How to deploy in the local machine:
 1. Open Docker in the Background
 2. Download the folder into the local machine and import it in VS Code.
 3. Open the terminal in VS Code and enter the following commands
+   
   docker build -t task-tracker .
 
   docker run -p 3000:3000 task-tracker
